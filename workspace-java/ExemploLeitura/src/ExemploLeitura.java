@@ -23,7 +23,7 @@ public class ExemploLeitura {
 	System.out.print(texto);
 	System.out.println(" você digitou os valores "+a+" e "+b);
 	
-	System.out.printf(%.3f);
+//	System.out.printf(%.3f);
 	 
 	teclado.close();
 	
