@@ -9,11 +9,21 @@ public class QuestaoComDica extends QuestaoSimples {
 
 	}
 	
-	@Override
-	public void aplicarQuestao() {
-		 System.out.println(enuciado);
-		 System.out.println(dica);
-	}
+	//@Override
+	//public void aplicarQuestao() {
+		// System.out.println(enuciado);
+		// System.out.println(dica);
+	//}
 
-	
+
+public String aplicarQuestao() {
+	return super.aplicarQuestao()+"\n  Dica:"+this.dica;
+}
+public String getDica() {
+	return dica;
+}
+
+public void setDica(String dica) {
+	this.dica = dica;
+}
 }
